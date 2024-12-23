@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Routing Example</title>
+  </head>
+  <body>
+    <header>
+      <h1>React Routing Example</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#dashboard">Dashboard</a></li>
+      </ul>
+    </nav>
+    <article>
+      <!-- url : / home.jsx-->
+      <div>
+        <h2 id="home">Home Page</h2>
+        <p>Welcome to the Home Page!</p>
+      </div>
+
+      <!-- url : /about  about.jsx-->
+      <div>
+        <h2 id="about">About Page</h2>
+        <p>This is the About Page.</p>
+      </div>
+
+      <!-- url : /contact contact.jsx-->
+      <div>
+        <h2 id="contact">Contact Page</h2>
+        <p>Get in touch with us!</p>
+      </div>
+
+      <!-- url : /dashboard -->
+      <div>
+        <h2 id="dashboard">Dashboard</h2>
+        <p>This is the dashboard page</p>
+        <ul>
+          <li>
+            <a href="#profile">Profile for user 1004</a>
+          </li>
+          <li>
+            <a href="#settings">Settings</a>
+          </li>
+        </ul>
+
+        <!-- url : /dashboard/profile/1004 -->
+        <div>
+          <h3 id="profile">Profile</h3>
+          <p>This is the Profile page for user 1004</p>
+        </div>
+
+        <!-- url : /dashboard/settings -->
+        <div>
+          <h3>Settings</h3>
+          <p>This is the Settings page</p>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
